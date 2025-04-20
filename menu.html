@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Bites QR Menu</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+        header {
+            background-color: #ff5722;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .menu-section {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 20px;
+        }
+        .menu-category {
+            margin-bottom: 30px;
+        }
+        .menu-category h2 {
+            color: #ff5722;
+            border-bottom: 2px solid #ff5722;
+            padding-bottom: 5px;
+        }
+        .menu-item {
+            background: white;
+            border-radius: 10px;
+            padding: 15px;
+            margin: 15px 0;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            transition: transform 0.3s;
+        }
+        .menu-item img {
+            width: 120px;
+            height: 120px;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+        .menu-item h3 {
+            margin: 0;
+            font-size: 1.2em;
+        }
+        .menu-item span {
+            margin-left: auto;
+            font-weight: bold;
+            color: #ff5722;
+        }
+        .menu-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #333;
+            color: white;
+            margin-top: 30px;
+        }
+        .designer-tag {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #ccc;
+        }
+        .designer-tag span {
+            color: #ff5722;
+            font-weight: bold;
+        }
+        .section-title {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #ff5722;
+        }
+        .menu-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🍔 Delicious Bites</h1>
+        <p>Welcome to our restaurant — scan the QR code on your table to view the live menu!</p>
+    </header>
+
+    <div class="menu-section">
+        <div class="section-title">Our Delicious Menu</div>
+        <div class="menu-container">
+            <div class="menu-category">
+                <h2>Burgers 🍔</h2>
+                <div class="menu-item">
+                    <img src="https://i.imgur.com/fdFv0cO.jpg" alt="Cheese Burger">
+                    <h3>Cheese Burger</h3>
+                    <span>Rs 350</span>
+                </div>
+                <div class="menu-item">
+                    <img src="https://i.imgur.com/IBtBqF5.jpg" alt="Zinger Burger">
+                    <h3>Zinger Burger</h3>
+                    <span>Rs 400</span>
+                </div>
+            </div>
+
+            <div class="menu-category">
+                <h2>Pizza 🍕</h2>
+                <div class="menu-item">
+                    <img src="https://i.imgur.com/7Yl3Eyo.jpg" alt="Large Pizza">
+                    <h3>Large Pizza</h3>
+                    <span>Rs 950</span>
+                </div>
+                <div class="menu-item">
+                    <img src="https://i.imgur.com/Qd2CH3B.jpg" alt="Pepperoni Pizza">
+                    <h3>Pepperoni Pizza</h3>
+                    <span>Rs 1100</span>
+                </div>
+            </div>
+
+            <div class="menu-category">
+                <h2>Fries 🍟</h2>
+                <div class="menu-item">
+                    <img src="https://i.imgur.com/2zRDKtI.jpg" alt="Crispy Fries">
+                    <h3>Crispy Fries</h3>
+                    <span>Rs 200</span>
+                </div>
+                <div class="menu-item">
+                    <img src="https://i.imgur.com/VmJm7pN.jpg" alt="Loaded Fries">
+                    <h3>Loaded Fries</h3>
+                    <span>Rs 300</span>
+                </div>
+            </div>
+
+            <div class="menu-category">
+                <h2>Drinks 🥤</h2>
+                <div class="menu-item">
+                    <img src="https://i.imgur.com/BZNtPUY.jpg" alt="Soft Drink">
+                    <h3>Soft Drink</h3>
+                    <span>Rs 100</span>
+                </div>
+                <div class="menu-item">
+                    <img src="https://i.imgur.com/9mNAI7a.jpg" alt="Milkshake">
+                    <h3>Strawberry Milkshake</h3>
+                    <span>Rs 250</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 Delicious Bites Restaurant
+        <div class="designer-tag">
+            Designed with ❤️ by <span>Ehsan Hamza Jutt</span>
+        </div>
+    </footer>
+</body>
+</html>
